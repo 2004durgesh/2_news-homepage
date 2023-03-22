@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="index-b15745b2.css">
+</head>
+
+<body class="bg-[#fffdfa]  overflow-x-hidden">
+  <div class=" max-w-[90%] sm:max-w-7xl mx-auto mt-20 mb-10 transition-all">
+    <nav class="flex items-center justify-between">
+      <img src="logo-2ae3d696.svg" alt="" class="cursor-pointer">
+      <ul class="before-toggle flex space-x-4 px-4">
+        <li class="hover:text-[#e9ab53] cursor-pointer hidden sm:block">Home</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer hidden sm:block">New</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer hidden sm:block">Popular</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer hidden sm:block">Trending</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer hidden sm:block">Categories</li>
+      </ul>
+      <img src="icon-menu-09147dcd.svg" id="icon_menu" alt="" class=" block sm:hidden">
+    </nav>
+    <div id="after-toggle"
+      class="flex flex-col bg-[#fffdfa] max-w-[90%] sm:max-w-7xl h-screen w-[73%] absolute top-0 left-full hidden">
+      <img src="icon-menu-close-018fbc42.svg" id="icon_menu_close" alt="" class="w-8 flex mt-6 ml-56">
+      <ul class=" flex flex-col space-y-7 my-10 px-4">
+        <li class="hover:text-[#e9ab53] cursor-pointer">Home</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer">New</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer">Popular</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer">Trending</li>
+        <li class="hover:text-[#e9ab53] cursor-pointer">Categories</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class=" max-w-[90%] sm:max-w-7xl mx-auto sm:grid sm:grid-cols-3">
+    <div class="col-span-2">
+      <img src="image-web-3-mobile-83b3ba87.jpg" alt="" class="block sm:hidden">
+      <img src="image-web-3-desktop-80273c80.jpg" alt="" class="hidden sm:block">
+      <div class="sm:grid sm:grid-cols-2  my-5 ">
+        <div>
+          <h1 class="font-extrabold text-6xl ">The Bright Future of Web 3.0?</h1>
+        </div>
+        <div>
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
+            hands of the people.
+            But is it really fulfilling its promise?</p>
+          <button class="bg-[#f15e50] text-white px-4 py-2 mt-4 active:bg-[#00001a]">READ MORE</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class=" bg-[#00001a] my-14 sm:my-0 mx-5 py-5">
+      <h1 class="text-[#e9ab53] font-bold text-3xl my-5 mx-5">New</h1>
+      <div class="grid grid-rows-3 my-5 mx-5">
+
+        <div class="">
+          <h1 class="text-white text-2xl font-bold">Hydrogen VS Electric Cars</h1>
+          <p class="text-[#c5c6ce]">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr class="mt-8">
+        </div>
+
+        <div class="pb-4">
+          <h1 class="text-white text-2xl font-bold">The Downsides of AI Artistry</h1>
+          <p class="text-[#c5c6ce]">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr class="mt-8">
+        </div>
+
+        <div class="">
+          <h1 class="text-white text-2xl font-bold">Is VC Funding Drying Up?</h1>
+          <p class="text-[#c5c6ce]">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div
+    class="max-w-[90%] sm:max-w-7xl mx-auto grid sm:grid-cols-3 grid-rows-3 space-y-5 sm:space-x-5 items-center justify-center my-10">
+    <div class="flex">
+      <img src="image-retro-pcs-f5b001aa.jpg" alt="" class="h-44">
+      <div class="flex flex-col mx-4 space-y-3">
+        <h1 class="font-extrabold text-6xl text-[#c5c6ce]">01</h1>
+        <h1 class="font-extrabold text-xl">Reviving Retro PCs</h1>
+        <p class="text-[#c5c6ce] leading-8">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+
+    <div class="flex">
+      <img src="image-top-laptops-bc1cbac8.jpg" alt="" class="h-44">
+      <div class="flex flex-col mx-4 space-y-3">
+        <h1 class="font-extrabold text-6xl text-[#c5c6ce]">02</h1>
+        <h1 class="font-extrabold text-xl">Top 10 Laptops of 2022</h1>
+        <p class="text-[#c5c6ce] leading-8">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+
+    <div class="flex">
+      <img src="image-gaming-growth-77ea9e27.jpg" alt="" class="h-44">
+      <div class="flex flex-col mx-4 space-y-3">
+        <h1 class="font-extrabold text-6xl text-[#c5c6ce]">03</h1>
+        <h1 class="font-extrabold text-xl">The Growth of Gaming</h1>
+        <p class="text-[#c5c6ce] leading-8">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+ 
+  <script>
+    let icon_menu = document.getElementById("icon_menu");
+    let icon_menu_close = document.getElementById("icon_menu_close");
+    let after_toggle = document.getElementById("after-toggle")
+    icon_menu.addEventListener("click", () => {
+      after_toggle.classList.add("left-[30%]")
+      after_toggle.classList.remove("left-full")
+      after_toggle.classList.remove("hidden")
+      document.body.classList.add("bg-[#c5c6ce]")
+    })
+    icon_menu_close.addEventListener("click", () => {
+      after_toggle.classList.add("left-full")
+      after_toggle.classList.remove("left-[30%]")
+      document.body.classList.remove("bg-[#c5c6ce]")
+      document.body.classList.add("bg-[#fffdfa]")
+      after_toggle.classList.add("hidden")
+
+    })
+  </script>
+</body>
+
+</html>
